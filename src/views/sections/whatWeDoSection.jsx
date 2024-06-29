@@ -1,9 +1,7 @@
 // WhatWeDo.js
 
 import React, { useState, useEffect } from "react";
-import { Container, Row, Col } from "reactstrap";
-import bgimg from "../../assets/img/cartographer.png";
-import "./whatwedo.css"; // Import the CSS file
+import "../../assets/css/whatwedo.css"; // Import the CSS file
 
 const WhatWeDo = () => {
   const [showtitle, setShowtitle] = useState(false);
