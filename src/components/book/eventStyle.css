@@ -1,0 +1,62 @@
+  body {
+    background-color: #000;
+  }
+
+  /* .disable-scroll {
+    overflow: hidden;
+  } */
+
+  .navbar.navbar-transparent {
+    padding-top: 0;
+  }
+
+
+  #overlay {
+    position: fixed; /* Sit on top of the page content */
+    display: none; /* Hidden by default */
+    width: 100%; /* Full width (cover the whole page) */
+    height: 100%; /* Full height (cover the whole page) */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5); /* Black background with opacity */
+  }
+  .magazine {
+    margin: 0 auto;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    width: 100%;
+    height: 100%;
+  }
+
+  .magazine .page {
+    height: 100%;
+  }
+
+  .magazine .page img {
+    max-width: 100%;
+    height: 100%;
+  }
+
+  .event-content p{
+    font-size: 20px;
+    font-weight: bolder;
+    color: #000;
+    line-height: 2rem;
+  }
+
+  .butn{
+    font-size: 40px;
+    color: #F8FAE5;
+    cursor: pointer;
+  }
+
+  .butn:hover{
+    color: #d4b186;
+    font-size: 44px;
+  }
