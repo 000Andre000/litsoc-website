@@ -190,7 +190,7 @@ const Events = () => {
           max={data.length + 3}
         />
      </Box> */}
-
+{/* 
      <Box sx={{ width: 300 }}>
       <Slider className="slider"
         aria-label="Temperature"
@@ -199,7 +199,7 @@ const Events = () => {
         max={data.length + 3}
         style={{color:'#d4b186'}}
       />
-    </Box>
+    </Box> */}
       
     </div>
   );
